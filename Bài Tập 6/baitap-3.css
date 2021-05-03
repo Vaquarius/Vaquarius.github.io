@@ -1,0 +1,354 @@
+body {
+    background-image: url(./Img/—Pngtree—dark\ smoky\ background\ banner_344480.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1700px;
+    margin: auto;
+    height: auto;
+    
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.main {
+    background-image: url(./Img/—Pngtree—dark\ smoky\ background\ banner_344480.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    max-width: 1700px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    height: auto;
+}
+
+.header {
+    background-image: url(./Img/banner.jpg);
+    height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
+    /* position: absolute;
+    top: 10%; */
+}
+
+.main-header {
+    height: 46px;
+    width: 100%;
+    max-width: 1700px;
+    background-color: #7c2323;
+    border-radius: 10px;
+    display: flex;
+    margin: 21px 0px;
+    position: relative;
+    top: 0%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo {
+    top: -80%;
+    position: absolute;
+    left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.logoname {
+    position: absolute;
+}
+img {
+    width: 58%;
+}
+
+.main-menu {
+    max-width: 1700px;
+    display: flex;
+    /* position: absolute;
+    left: 40%; */
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    max-width: 1700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.menu li {
+    height: 102%;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+li.Gallery {    
+    position: relative;
+}
+
+ul.sub-gallery {
+    list-style: none;
+    padding: 15px 0px;
+    display: none;
+    position: absolute;
+    top: 80%;
+}
+
+ul.sub-gallery li {
+    padding: 10px 0px;
+    color: white;
+}
+
+li.Gallery:hover ul.sub-gallery {
+    display: block;
+}
+
+.buttonsearch {
+    position: absolute;
+    width: 20%;
+    top: 0;
+    right: 0;
+    height: 170%;
+    max-width: 1700px;
+    float: left;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a.contact{
+    height: 59%;
+    width: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+}
+input[type="text"] {
+    border-radius: 10px;
+}
+
+
+.body {
+    /* position: absolute;
+    top: 70%; */
+    width: 100%;
+    max-width: 1700px;
+    /* margin: auto; */
+}
+
+.main-body {
+    width: 100%;
+    max-width: 1700px;
+}
+.Content-1 {
+    background-image: url(./Img/—Pngtree—dark\ smoky\ background\ banner_344480.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    max-width: 1700px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+}
+.new\&event {
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    height: 100%;
+}
+.events-content {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 80%;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px;
+    left: 10px;
+}
+a.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+h1.eventday {
+    width: 34%;
+    font-size: 56px;
+    margin: 0;
+}
+p.econtent {
+    display: flex;
+    width: 57%;
+    margin: 0;
+}
+.new-content {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 20px;
+    height: auto;
+}
+.new {
+    display: flex;
+    width: 40%;
+    height: 45%;
+    flex-grow: 1;
+    align-items: center;
+    max-width: 100%;
+    margin: 10px;
+}
+
+img.tiesto {
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h1.tiesto-content {
+    padding: 26px;
+}
+.Content-2 {
+    background-image: url(./Img/conten-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.sub-about {
+    width: 52%;
+    margin-left: 40px;
+    height: 100%;
+    justify-content: flex-start;
+    position: relative;
+}
+h1.topdj {
+    font-size: 55px;
+    color: red;
+    position: absolute;
+    top: 70px;
+    margin: 0;
+}
+h1.solgan {
+    font-size: 40px;
+    margin: 0px;
+    position: absolute;
+    top: 155px;
+}
+img.tiestokey {
+    width: 15%;
+    position: absolute;
+    top: 67%;
+    left: 30%;
+}
+.button {
+    height: 70px;
+    width: 40%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 30px;
+}
+
+.Content-3 {
+    background-image: url(./Img/rsz_1david.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sub-about1 {
+    width: 52%;
+    height: 100%;
+    justify-content: flex-start;
+    position: relative;
+    right: 40px;
+}
+img.davidkey {
+    position: absolute;
+    top: 55%;
+    width: 20%;
+}
+
+h1.topdj1 {
+    font-size: 55px;
+    color: red;
+    position: absolute;
+    top: 20%;
+    margin: 0;
+    right: 0px;
+}
+h1.solgan1 {
+    font-size: 40px;
+    margin: 0px;
+    position: absolute;
+    top: 240px;
+    left: 10%;
+}
+.button1 {
+    height: 70px;
+    width: 40%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 30px;
+    right: 0;    
+}
+
+.footer {
+    width: 100%;
+    max-width: 1700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img.flogo {
+    width: 80%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.company {
+    display: flex;
+    flex-direction: column;
+}

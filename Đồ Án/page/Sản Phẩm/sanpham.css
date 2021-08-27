@@ -1,0 +1,70 @@
+.allproduct {
+    display: flex;
+    max-width: 1700px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 50px;
+}
+.filter {
+    width: 20%;
+}
+.productlist {
+    width: 75%;
+    margin: 0 20px;
+}
+.djequipment {
+    padding-bottom: 15px;
+}
+
+.ranger {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_item {
+    display: flex;
+    
+}
+
+i.far.fa-circle {
+    padding-right: 20px;
+}
+
+button.apply {
+    width: 40%;
+    height: 40px;
+}
+.product_items {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+img.product_background {
+    width: 100%;
+   
+}
+.productitem {
+    margin: 0 10px 0 0;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+}
+.productitem a {
+    
+    display: block;
+    color: black;
+    font-size: 14px;
+}
+.product_details {
+    padding: 20px 0px;
+}
+
+button.addcart {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}

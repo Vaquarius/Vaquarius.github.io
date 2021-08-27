@@ -1,0 +1,168 @@
+
+/* đây là body */
+
+.banner {
+    max-width: 1700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.background-banner {
+    position: relative;
+}
+.background-banner img {
+    width: 100%;
+}
+
+.banner_content {
+    position: absolute;
+    color: white;
+    width: 36%;
+    left: 15%;
+    top: 25%;
+}
+
+.supbanner {
+    position: relative;
+    width: 70%;
+    background-color: #f0f0f0;
+    bottom: 90px;
+    display: flex;
+}
+.supbanner_item {
+    width: 100%;
+    padding: 15px;
+}
+.supbanner img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+/* Content */
+
+.main-content {
+    max-width: 1700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px 48px;
+}
+.content {
+    display: flex;
+    width: 100%;
+}
+.content img {
+    width: 100%;
+}
+.content-left {
+    width: 50%;
+    padding: 5px;
+}
+
+
+.content_item1 {
+    padding-bottom: 10px;
+}
+.content_item2 {
+    display: flex;
+}
+
+.product {
+    width: 70%;
+    padding-right: 10px;
+}
+.product_item1 {
+    display: flex;
+    justify-content: space-between;
+}
+.product_item1 a {
+    width: 49%;
+}
+.firmware_update {
+    width: 33%;
+    background-color: #f0f0f0;
+}
+.content-right {
+    width: 50%;
+    padding: 5px
+}
+
+.content_item3 {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_item4 {
+    padding: 10px 0;
+}
+.masterclass {
+    width: 66%;
+}
+.product_item2 {
+    width: 33%;
+    padding-left: 10px;
+}
+
+.support {
+    background-color: #f0f0f0;
+    height: 48%;
+}
+
+                                                        /* news */
+
+.news {
+    padding: 40px 0;
+    max-width: 1700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.news a {
+    color: black;
+}
+.new_content {
+    display: flex;
+    padding: 0px 40px;
+}
+
+.news_item {
+    width: 100%;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+.news_item img {
+    width: 100%;
+}
+.content_new {
+    padding: 0 10px;
+}
+/*................................. Brand ..........................................*/
+
+.brand {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+img.brandbanner {
+    width: 100%;
+}
+
+img.brand_item {
+    width: 10%;
+}
+.brand_logo_item {
+    padding: 40px;
+}
+
+.brand_logo_item a {
+    padding: 40px;
+}

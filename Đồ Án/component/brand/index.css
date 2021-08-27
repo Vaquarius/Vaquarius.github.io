@@ -1,0 +1,26 @@
+.brand {
+    max-width: 1700px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+img.brandbanner {
+    width: 100%;
+}
+
+img.brand_item {
+    width: 10%;
+}
+.brand_logo_item {
+    padding: 40px;
+    display: flex;
+}
+
+.brand_logo_item a {
+    padding: 40px;
+}
+.brand_logo_item img {
+    width: 100%;
+}
